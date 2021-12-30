@@ -1,18 +1,6 @@
 print('6.1 - Model Fitting Underway')
 set.seed(0)
 
-library(MASS)
-library(class)
-library(glmnet)
-library(tree)
-library(dplyr)
-library(foreach)
-library(doParallel)
-library(bigstatsr)
-library(rpart)
-library(caret)
-library(data.table)
-
 n_CVs = 10
 nfold = 5
 n_models = 8 #elastic net alpha = 0.1, 0.3, 0.5, 0.7, 0.9, LASSO, LDA, TREE
