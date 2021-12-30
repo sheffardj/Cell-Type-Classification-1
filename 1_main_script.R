@@ -62,12 +62,8 @@ source('3_load_data.R') #3
 source('4_feat_select.R') #4
 print(paste('    - Elapsed Time:',(proc.time()[[3]]-time)/60,' minutes'))
 
-
-#DONT RUN THIS STUFF NOW
-if(0){
 source('5_EDA_df_sml.R') #5
 print(paste('    - Elapsed Time:',(proc.time()[[3]]-time)/60,' minutes'))
-
 
 time_models <- proc.time()[[3]]
 source('6_model_fitting.R') #6
@@ -77,9 +73,8 @@ print(paste('    - Elapsed Time:',(proc.time()[[3]]-time)/60,' minutes'))
 source('7_post_fit.R') #7
 print(paste('    - Elapsed Time:',(proc.time()[[3]]-time)/60,' minutes'))
 
-print('1.2 - Job Complte!')
+print('1.2 - Job Complete!')
 print(paste('    - Total Time:',(proc.time()[[3]]-time)/60,' minutes'))
-}
-### use shell script to submit LATER 1_main_script
+
 
 
