@@ -1,5 +1,5 @@
 # Cell-Type-Classification-1
-For Univeristy of Victoria Course: Stat 454 | Machine Learning 
+For Univeristy of Victoria Course: Stat 454/556 | Machine Learning (MIDTERM PROJECT)
 
 Auto-annotation of RNA-sequence data (18000+ features, 1 binary predictor and existing labels) into 5 cell types with feature reduction, using 100 ten-fold cross-validations over 5 models: Lasso, Elastic Net, and Ridge Regression, as well as a tuned Classification Tree and Linear Discriminant Analysis. 
 
